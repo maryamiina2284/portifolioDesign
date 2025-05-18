@@ -9,10 +9,14 @@ It can be used as a starter template to showcase your personal profile, projects
 
 POR/
 ├── images/
-│ └── man2.jpeg # Profile or visual image
-├── index.html # Main HTML file
-├── style.css # CSS styling
-└── README.md # This file (project description)
+
+│ └── image.png 
+
+├── index.html 
+
+├── style.css 
+
+└── README.md 
 
 
 ## 🚀 Features
