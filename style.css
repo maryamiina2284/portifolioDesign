@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(231, 225, 249);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 70px;
+}
+
+.logo span{
+    background: linear-gradient(to right, #dc13a9, #3e4fe3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav a{
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(66, 65, 65);
+}
+
+.body .image{
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+   
+}
+.image img{
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    filter: drop-shadow(40px 40px 35px rgb(252, 214, 237));
+  
+}
+.body .web{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 300px;
+    font-weight: bold;
+    position: relative;
+}
+
+.webflow{
+    background: rgb(222, 187, 219);
+    color: #dc13a9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.webflow i{
+    position: absolute;
+    left: 480px;
+    top: -7px;
+}
+
+.webdesg{
+    background: rgb(181, 175, 249);
+    color:#663fc9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.webdesg i{
+    position: absolute;
+    right: 450px;
+    top: -7px;
+    rotate: -90deg;
+}
+
+.text{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+}
+.text h3{
+    font-size: 3.5em;
+    padding: 5px 0px;
+}
+.text p{
+    font-size: 1.5em;
+    color: #3d3c3c;
+    line-height: 1.5;
+    padding: 20px 0px;
+}
+.btn{
+    background: #663fc9;
+    color: white;
+    font-size: 20px;
+    padding: 20px 45px;
+    border: none;
+    border-radius: 5px;
+}
